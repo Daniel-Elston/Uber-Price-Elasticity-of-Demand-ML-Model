@@ -1,0 +1,5 @@
+,Dtype,Expected_Type,Length,Null_Count,Size(Memory),Definition,Range
+Unnamed: 0,int64,int64,2000,0,16000,,"(5730, 55419179)"
+fare_amount,float64,float64,2000,0,16000,,"(2.5, 70.25)"
+pickup_datetime,object,datetime64[ns],2000,0,16000,,"('2009-01-01 17:25:00 UTC', '2015-06-30 12:12:05 UTC')"
+passenger_count,int64,int64,2000,0,16000,,"(0, 6)"

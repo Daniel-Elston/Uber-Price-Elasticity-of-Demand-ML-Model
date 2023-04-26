@@ -1,0 +1,9 @@
+,Dtype,Expected_Type,Length,Null_Count,Size(Memory),Definition,Range
+pickup_datetime,datetime64[ns],int64,1684,0,13472,,"(Timestamp('2009-01-01 17:00:00'), Timestamp('2015-06-30 12:00:00'))"
+passenger_count,float64,float64,1684,0,13472,,"(0.0, 4.0)"
+fare_amount,float64,datetime64[ns],1684,0,13472,,"(2.5, 27.7)"
+fare_amount_pct_change,float64,int64,1684,1,13472,,"(-0.8484848484848485, 8.4)"
+passenger_count_pct_change,float64,int64,1684,1,13472,,"(-1.0, inf)"
+passenger_count_pct_change_sma,float64,object,1684,30,13472,,"(-0.6111111111111112, 1.4444444444444444)"
+fare_amount_pct_change_sma,float64,object,1684,3,13472,,"(-0.47594364699627745, 3.14840425531915)"
+sPED,float64,int64,1684,30,13472,,"(-281474976710656.0, 1254.9375000001362)"
